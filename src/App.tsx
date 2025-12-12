@@ -38,7 +38,7 @@ export const App = () => {
                             className="box-border caret-transparent"
                           >
                             <div className="box-border caret-transparent">
-                              <div className="relative box-border caret-transparent">
+                              <div id="home" className="relative box-border caret-transparent">
                                 <div className="box-border caret-transparent hidden"></div>
                                 <Hero />
                               </div>
@@ -46,11 +46,11 @@ export const App = () => {
                                 <div className="box-border caret-transparent hidden"></div>
                                 <CallToAction />
                               </div>
-                              <div className="relative box-border caret-transparent">
+                              <div  id="about" className="relative box-border caret-transparent">
                                 <div className="box-border caret-transparent hidden"></div>
                                 <AboutSection />
                               </div>
-                              <div className="relative box-border caret-transparent">
+                              <div id="whoweare" className="relative box-border caret-transparent">
                                 <div className="box-border caret-transparent hidden"></div>
                                 <WhoWeAre />
                               </div>
@@ -62,13 +62,13 @@ export const App = () => {
                                 <div className="box-border caret-transparent hidden"></div>
                                 <CTASection />
                               </div>
-                              <div className="relative box-border caret-transparent">
+                              <div id="services" className="relative box-border caret-transparent">
                                 <div className="box-border caret-transparent hidden"></div>
                                 <ServicesDetail />
                               </div>
 
                               
-                              <div className="relative box-border caret-transparent">
+                              <div id="whychoose" className="relative box-border caret-transparent">
                                 <div className="box-border caret-transparent hidden"></div>
                                 <WhyChooseSection />
                               </div>

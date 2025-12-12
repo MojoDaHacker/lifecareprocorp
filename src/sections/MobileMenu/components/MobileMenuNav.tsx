@@ -128,7 +128,7 @@ export const MobileMenuNav = () => {
                 className="relative box-border caret-transparent flex flex-col justify-start align-top before:accent-auto before:self-center before:box-border before:caret-transparent before:text-black before:block before:text-base before:not-italic before:normal-nums before:font-bold before:tracking-[normal] before:leading-[normal] before:list-outside before:list-none before:pointer-events-auto before:text-start before:indent-[0px] before:normal-case before:visible before:border-separate before:font-poppins after:accent-auto after:self-start after:box-border after:caret-transparent after:text-neutral-300 after:block after:text-base after:not-italic after:normal-nums after:font-bold after:h-0 after:tracking-[normal] after:leading-[normal] after:list-outside after:list-none after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:visible after:w-full after:border-separate after:font-poppins"
               >
                 <a
-                  href="/contact"
+                  href="#contact"
                   className="relative items-center box-border caret-transparent flex justify-start tracking-[0.48px] align-top py-[5px]"
                 >
                   <span className="relative box-border caret-transparent block md:static md:pointer-events-none">

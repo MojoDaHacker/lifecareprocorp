@@ -11,7 +11,7 @@ export const CallToAction = () => {
           headingClassName="text-3xl font-bold box-border caret-transparent text-left uppercase font-inter md:text-4xl md:text-start"
           headingSpanClassName="text-white text-3xl box-border caret-transparent text-left md:text-4xl md:text-start"
           buttonText="Reach Out Today"
-          buttonHref="/contact"
+          buttonHref="#contact"
         />
       </div>
     </section>

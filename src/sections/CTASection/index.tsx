@@ -14,7 +14,7 @@ export const CTASection = () => {
           subtitleClassName="text-white text-2xl box-border caret-transparent text-left font-inter md:text-center"
           subtitleSpanClassName="box-border caret-transparent text-left md:text-center"
           buttonText="Get Started"
-          buttonHref="/contact"
+          buttonhref="#contact"
         />
       </div>
     </section>

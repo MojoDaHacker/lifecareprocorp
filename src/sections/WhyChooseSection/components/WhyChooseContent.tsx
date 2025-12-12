@@ -34,7 +34,7 @@ export const WhyChooseContent = () => {
             </p>
             <p className="box-border caret-transparent tracking-[0.128px] leading-[22.5882px] text-left font-montserrat md:text-center">
               <a
-                href="/contact"
+                href="#contact"
                 type="page"
                 className="box-border caret-transparent text-left underline md:text-center"
               >
