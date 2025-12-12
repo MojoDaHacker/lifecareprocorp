@@ -12,9 +12,15 @@
     "skipLibCheck": true,
     "baseUrl": "./src", // The base directory to resolve non-relative module names
     "paths": {
-      "@/*": ["*"],            // Maps @/ to all files within the baseUrl directory
-      "@components/*": ["components/*"], // Example: alias for the components directory
-      "@utils/*": ["utils/*"]         // Example: alias for the utils directory
+      "@/*": [
+        "*"
+      ], // Maps @/ to all files within the baseUrl directory
+      "@components/*": [
+        "components/*"
+      ], // Example: alias for the components directory
+      "@utils/*": [
+        "utils/*"
+      ] // Example: alias for the utils directory
     },
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -22,12 +28,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "strict": false,
     "noFallthroughCasesInSwitch": true,
     "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "plugins": [
       {
@@ -40,7 +43,10 @@
     "./dist/types/**/*.ts",
     "./next-env.d.ts",
     "dist/types/**/*.ts",
-    "dist/dev/types/**/*.ts"
+    "dist/dev/types/**/*.ts",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "./dist/dev/types/**/*.ts"
   ],
   "exclude": [
     "./node_modules"

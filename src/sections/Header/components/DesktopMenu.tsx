@@ -4,7 +4,6 @@ export const DesktopMenu = () => {
       <div className="relative box-border caret-transparent hidden max-w-full min-h-2.5 min-w-2.5 w-full md:block">
         <nav
           role="navigation"
-          alt=""
           className="items-stretch box-border caret-transparent flex h-full justify-center w-full"
         >
           <ul

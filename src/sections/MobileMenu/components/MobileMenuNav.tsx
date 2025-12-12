@@ -5,7 +5,6 @@ export const MobileMenuNav = () => {
         <div className="relative self-start box-border caret-transparent max-w-full min-h-2.5 min-w-2.5 w-[544px] md:self-auto">
           <nav
             role="navigation"
-            alt=""
             className="text-black items-stretch box-border caret-transparent flex h-full justify-around w-full"
           >
             <ul

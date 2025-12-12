@@ -4,7 +4,6 @@ export const HeroButton = () => {
       <div className="box-border caret-transparent h-full w-full">
         <div className="box-border caret-transparent">
           <a
-            value="https://maps.app.goo.gl/tC2gW2xWSLkYdWx59"
             type="url"
             href="https://maps.app.goo.gl/tC2gW2xWSLkYdWx59"
             className="text-blue-700 box-border caret-transparent underline align-top"
